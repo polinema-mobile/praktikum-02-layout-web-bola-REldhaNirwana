@@ -28,23 +28,26 @@ class MyApp extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Expanded(
-                        
+                        child: OutlineButton(
+                          onPressed: () {},
                           child: Text(
                             "BERITA TERBARU",
                             style: TextStyle(fontSize: 13),
                           ),
                         ),
-                      
+                      ),
                       SizedBox(
-                        width: 10,
+                        width: 40,
                       ),
                       Expanded(
-                        
+                          child: OutlineButton(
+                          onPressed: () {}, 
                           child: Text(
                             "PERTANDINGAN HARI INI",
                             style: TextStyle(fontSize: 13),  
                           ),
                         ), 
+                      ),
                       
             SizedBox(),
                 Container(
@@ -67,9 +70,9 @@ class MyApp extends StatelessWidget {
 
                       ),
 
-                    height: 300,
-                    width:500,
-                    margin: const EdgeInsets.only(left: 1,right: 1, top:20)
+                    height: 200,
+                    width:300,
+                    margin: const EdgeInsets.only(left: 1,right: 1, top:100)
 
                     ),   
                     ]         
