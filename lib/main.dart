@@ -76,8 +76,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Container(
         alignment:Alignment.topCenter,
-        child: Text('BERITA TERBARU            PERTANDINGAN HARI INI',
-        style: TextStyle(fontSize:16,height: 4.0),
+        child: Text('BERITA TERBARU        PERTANDINGAN HARI INI',
+        style: TextStyle(fontSize:16,height: 2.0),
         )
       ),
   
