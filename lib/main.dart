@@ -44,18 +44,29 @@ class MyApp extends StatelessWidget {
                             "PERTANDINGAN HARI INI",
                             style: TextStyle(fontSize: 13),  
                           ),
-                        ),
+                        ), 
                       
-                    ],
+            SizedBox(),
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.purple[300])
+                      ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Image.network('https://www.spurs-web.com/static/uploads/2019/07/skysports-diego-costa-atletico-madrid_4644146.jpg'),
+                    ]         
+                   ), 
                   ),
-                ),
-              ]
+                ],
+              ),
             ),
+            ]
           ),
         ),
       ),
-
-      );
-  }
+    ),
+  );
 }
-    
+}
