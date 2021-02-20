@@ -16,8 +16,46 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("MyApp"),
         ),
-      )
-    );
+        body: SingleChildScrollView(
+          child: 
+          Container(
+            margin: EdgeInsets.all(2),
+            child: Column(
+              children: [
+                Container(
+                  margin: EdgeInsets.all(2),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Expanded(
+                        
+                          child: Text(
+                            "BERITA TERBARU",
+                            style: TextStyle(fontSize: 13),
+                          ),
+                        ),
+                      
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Expanded(
+                        
+                          child: Text(
+                            "PERTANDINGAN HARI INI",
+                            style: TextStyle(fontSize: 13),  
+                          ),
+                        ),
+                      
+                    ],
+                  ),
+                ),
+              ]
+            ),
+          ),
+        ),
+      ),
+
+      );
   }
 }
     
