@@ -78,11 +78,22 @@ class MyApp extends StatelessWidget {
                     ]         
                    ), 
                   ),
-                ],
+                  Container(
+                        padding: EdgeInsets.fromLTRB(8,12,336,12),
+                        color: Colors.purple[300],
+                        child: Text(
+                          "Transfer",
+                          style: TextStyle(fontSize: 15),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                
               ),
             ),   
-          ),
-        ), 
+          
+         
   );
 }
 }
